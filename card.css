@@ -1,6 +1,7 @@
 body {
     margin: 60px 30px;
-    font-family: Verdana, "League Spartan", Geneva, Tahoma, sans-serif;
+    font-family: "Josefin Sans", "League Spartan", Geneva, Tahoma, sans-serif;
+    font-weight: normal;
 }
 
 .dot-bluebord {
@@ -9,6 +10,8 @@ body {
 
 .avatar {
     width: 150px;
+    border: 2px solid #e8f2f5;
+    border-radius: 10px;
 }
 
 .card {
@@ -18,14 +21,21 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    color: #2b2839;
-    background-color: #ddebf8;
-    border-bottom: 5px solid #d8cefe;
+    color: #e8f2f5;
+    background-color: #0a0a0a;
+    border: 5px solid #daeaf0;
+    border-radius: 15px;
 }
 
 .card-txt {
     padding-top: 40px;
     padding-left: 30px;
+    font-size: 16px;
+}
+
+h3, h4 {
+    font-family: "Alata", Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 /* .main {
